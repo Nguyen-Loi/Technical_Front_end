@@ -1,7 +1,7 @@
-** Thông tin cá nhân
+## Thông tin cá nhân
 - Gen 52
 - Nguyễn Hồng Lợi
-** Bài làm
+## Bài làm
 - Kiến thức về HTML
     1.  Code html để liên kết file js & css từ page.html & index.html.
     2. Sự khác biệt giữa `textarea` & `input` elements:
@@ -13,8 +13,8 @@
     | Loại nhập | Có nhiều loại khác nhau, ví dụ như text, password, email, date, number...| Chỉ hỗ trợ nhập văn bản|
     |Thẻ đóng| phải có thẻ đóng | Không cần|
     3. Thực hiện làm combobox:
-    - [html]()
-- Kiết thức về CSS
+    - [html](https://github.com/Nguyen-Loi/Technical_Front_end/blob/main/html_bai_3.html)
+- KiếN thức về CSS
     1. Liệt kê 5 CSS pseudo class/element:
     - `:hover`được sử dụng để tạo kiểu cho một phần tử khi người dùng di chuột qua nó.
     - `:active`được sử dụng để tạo kiểu cho một phần tử khi nó đang được kích hoạt bởi người dùng, thường là khi được nhấn vào.
@@ -24,9 +24,19 @@
     2. Hãy nêu sự khác nhau của hệ màu RGBA so với RGB 
     - RGBA bao gồm các giá trị màu đỏ, xanh lá cây, xanh dương và độ trong suốt (Alpha), trong khi RGB chỉ bao gồm các giá trị màu đỏ, xanh lá cây và xanh dương.
     3. Sử dụng thuộc tính CSS phù hợp khiến một hình ảnh (vuông) trở thành hình tròn.
-    - img
+    - ```html
+    <div class="rounded"></div>
+    ```
+
+    ```css
+    div{
+        width: 500px;
+        height: 500px;
+        background-color:yellow;
+        border-radius: 50%;
+        }```
     4. Chỉ sử dụng CSS, hãy di chuyển vị trí các ô trở nên sang như hình mẫu với cấu trúc HTML/CSS cho sẵn.
-    - code link
+    - [.CSS](https://github.com/Nguyen-Loi/Technical_Front_end/blob/main/css_bai_4.html)
 - Kiến thức về JS
     1. Có bao nhiêu cách viết vòng lặp for? Nêu cấu trúc phù hợp với các loại vòng lặp?
     - Có khá nhiều vòng lặp nên sẽ nêu những vòng lặp phổ biến (cụ thể là 3):
@@ -39,7 +49,14 @@
         3. Vòng lặp `forEach`
         - Cấu trúc:` array.forEach(function(currentValue, index, arr), thisValue)`
     2. Kết quả của đoạn code và giải thích
-        - img
+        ```js
+        function f (){
+            let b = 9
+            return ++b < 10 ? b : 'Yah'
+        }
+        let a = f()
+        console.log(a)
+        ```
         - Kết quả là 10
         - Giải thích: Trong hàm f(), biến b được thiết lập bằng giá trị 9. Sau đó, biểu thức ++b được tính toán, giá trị của b được tăng lên một đơn vị và trả về giá trị mới này (10). Biểu thức so sánh ++b < 10 được kiểm tra, và vì giá trị 10 không nhỏ hơn 10, biểu thức trả về giá trị false.
     3. Đề xuất giải pháp thay thế cấu trúc if else sau đây để khiến code trở nên gọn gàng. Chữ La Mã hàng đơn vị. Sửa đổi hàm roman_unit.
@@ -65,6 +82,7 @@
         - `afterend`: chèn HTML vào sau phần tử hiện tại
     - Viết hàm tương ứng:
         - let animals = ['cat','rabbit','dog','fox','fish','racoon','tiger','bear','parrot','snake']
-        - Result:js_bai_6.js (đọc lại lần nữa)
-    7. Từ câu tiếp theo trở đi sẽ sử dụng chung source code như sau. Đoạn code trên có thể chọn ngẫu nhiên 10 pokemon. Bạn hãy chọn 1 trong 3 câu nhỏ dưới để làm. Làm được cả 3 câu sẽ có quà riêng.
+        - Result: [JS](https://github.com/Nguyen-Loi/Technical_Front_end/blob/main/js_bai_6.js)
+    7. Từ câu tiếp theo trở đi sẽ sử dụng chung source code như sau. Đoạn code trên có thể chọn ngẫu nhiên 10 pokemon. Cập nhật hàm ở` main` để có thể kết thúc hàm công việc đang chạy (lấy dữ liệu) nếu thời gian chạy quá chậm  (> 2000ms)
+    - [js](https://github.com/Nguyen-Loi/Technical_Front_end/blob/main/js_bai_7_c.js)
         
