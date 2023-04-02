@@ -1,6 +1,7 @@
 ## Thông tin cá nhân
 - Gen 52
 - **Nguyễn Hồng Lợi**
+- Cơ sở: UVK-NX
 ## Kiến thức ề HTML
 1. Code html để liên kết file js & css từ page.html & index.html.
 ```txt
