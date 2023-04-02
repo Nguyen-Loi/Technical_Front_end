@@ -3,6 +3,23 @@
 - **Nguyễn Hồng Lợi**
 ## Kiến thức ề HTML
 1. Code html để liên kết file js & css từ page.html & index.html.
+```txt
+project
+├── assets
+│   ├── css
+│   │   ├── index.css
+│   │   └── page.css
+│   ├── js
+│   │   ├── index.js
+│   │   └── page.js
+│   └── page.html
+└── html
+    └── index.html
+```
+- Bên trái là page.html và bên phải là index.html
+
+![xong](https://user-images.githubusercontent.com/86301553/229336616-e586f04b-b3a1-4442-9daf-151b93bf67d5.png)
+
 2. Sự khác biệt giữa `textarea` & `input` elements:
 
    |  | `textarea` | `input` |
