@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Index</title>
+    <style>
+      .my-combobox option:checked {
+        background-color: green;
+        color: white;
+      } 
+    </style>
+  </head>
+  <body>
+    <h4>Choose your favorite animal</h4>
+    <select class="my-combobox" onchange="onChangeSelect(this)" style="border-radius: 6px;">
+      <option disabled selected>Choose an option</option>
+      <option>Cat</option>
+      <option>Dog</option>
+      <option>Rabbit</option>
+      <option>Fox</option>
+      <option>Tiger</option>
+      <option>Lynx</option>
+      <option>Others</option>
+    </select>
+
+       
+
+    <script>
+      
+      function onChangeSelect(select) {
+         select.size=1;
+        if (select.value !== "Choose your option") {
+          select.querySelector(
+            'option[value="Choose your option"]'
+          ).disabled = true;
+        }
+      }
+
+    </script>
+  </body>
+</html>
