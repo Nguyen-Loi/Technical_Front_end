@@ -24,7 +24,7 @@
     2. Hãy nêu sự khác nhau của hệ màu RGBA so với RGB 
     - RGBA bao gồm các giá trị màu đỏ, xanh lá cây, xanh dương và độ trong suốt (Alpha), trong khi RGB chỉ bao gồm các giá trị màu đỏ, xanh lá cây và xanh dương.
     3. Sử dụng thuộc tính CSS phù hợp khiến một hình ảnh (vuông) trở thành hình tròn.
-    - ```html
+    ```html
     <div class="rounded"></div>
     ```
 
@@ -34,7 +34,8 @@
         height: 500px;
         background-color:yellow;
         border-radius: 50%;
-        }```
+        }
+     ```
     4. Chỉ sử dụng CSS, hãy di chuyển vị trí các ô trở nên sang như hình mẫu với cấu trúc HTML/CSS cho sẵn.
     - [.CSS](https://github.com/Nguyen-Loi/Technical_Front_end/blob/main/css_bai_4.html)
 - Kiến thức về JS
@@ -48,6 +49,7 @@
         - Phù hợp để lặp qua các thuộc tính đối tượng `for..in`
         3. Vòng lặp `forEach`
         - Cấu trúc:` array.forEach(function(currentValue, index, arr), thisValue)`
+        - Phù hợp để lặp qua array (mảng)
     2. Kết quả của đoạn code và giải thích
         ```js
         function f (){
