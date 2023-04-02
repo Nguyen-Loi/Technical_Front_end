@@ -1,8 +1,8 @@
 ## Thông tin cá nhân
 - Gen 52
-- Nguyễn Hồng Lợi
+- **Nguyễn Hồng Lợi**
 ## Kiến thức ề HTML
-1.  Code html để liên kết file js & css từ page.html & index.html.
+1. Code html để liên kết file js & css từ page.html & index.html.
 2. Sự khác biệt giữa `textarea` & `input` elements:
 
    |  | `textarea` | `input` |
@@ -36,7 +36,7 @@
       }
 ```
 4. Chỉ sử dụng CSS, hãy di chuyển vị trí các ô trở nên sang như hình mẫu với cấu trúc HTML/CSS cho sẵn.
-- [.CSS](https://github.com/Nguyen-Loi/Technical_Front_end/blob/main/css_bai_4.html)
+- [Trả lời CSS](https://github.com/Nguyen-Loi/Technical_Front_end/blob/main/css_bai_4.html)
 ## Kiến thức về JS
 1. Có bao nhiêu cách viết vòng lặp for? Nêu cấu trúc phù hợp với các loại vòng lặp?
 - Có khá nhiều vòng lặp nên sẽ nêu những vòng lặp phổ biến (cụ thể là 3):
@@ -54,9 +54,9 @@
    function f (){
      let b = 9
     return ++b < 10 ? b : 'Yah'
-   }
-    let a = f()
-    console.log(a)
+  }
+  let a = f()
+  console.log(a)
  ```
  - Kết quả là 10
  - Giải thích: Trong hàm f(), biến b được thiết lập bằng giá trị 9. Sau đó, biểu thức ++b được tính toán, giá trị của b được tăng lên một đơn vị và trả về giá trị mới này (10). Biểu thức so sánh ++b < 10 được kiểm tra, và vì giá trị 10 không nhỏ hơn 10, biểu thức trả về giá trị false.
