@@ -96,7 +96,7 @@ project
     - `afterend`: chèn HTML vào sau phần tử hiện tại
 - Viết hàm tương ứng:
     - let animals = ['cat','rabbit','dog','fox','fish','racoon','tiger','bear','parrot','snake']
-    - Result: [JS](https://github.com/Nguyen-Loi/Technical_Front_end/blob/main/js_bai_6.js)
+    - Result: [Trả lời JS](https://github.com/Nguyen-Loi/Technical_Front_end/blob/main/js_bai_6.js)
 7. Từ câu tiếp theo trở đi sẽ sử dụng chung source code như sau. Đoạn code trên có thể chọn ngẫu nhiên 10 pokemon. Cập nhật hàm ở` main` để có thể kết thúc hàm công việc đang chạy (lấy dữ liệu) nếu thời gian chạy quá chậm  (> 2000ms)
-- [js](https://github.com/Nguyen-Loi/Technical_Front_end/blob/main/js_bai_7_c.js)
+- [Trả lời JS](https://github.com/Nguyen-Loi/Technical_Front_end/blob/main/js_bai_7_c.js)
         
