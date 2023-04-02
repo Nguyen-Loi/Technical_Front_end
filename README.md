@@ -13,7 +13,7 @@
    |Thẻ đóng| phải có thẻ đóng | Không cần|
 3. Thực hiện làm combobox:
 - [html](https://github.com/Nguyen-Loi/Technical_Front_end/blob/main/html_bai_3.html)
-## KiếN thức về CSS
+## Kiến thức về CSS
 1. Liệt kê 5 CSS pseudo class/element:
 - `:hover`được sử dụng để tạo kiểu cho một phần tử khi người dùng di chuột qua nó.
 - `:active`được sử dụng để tạo kiểu cho một phần tử khi nó đang được kích hoạt bởi người dùng, thường là khi được nhấn vào.
@@ -40,15 +40,15 @@
 ## Kiến thức về JS
 1. Có bao nhiêu cách viết vòng lặp for? Nêu cấu trúc phù hợp với các loại vòng lặp?
 - Có khá nhiều vòng lặp nên sẽ nêu những vòng lặp phổ biến (cụ thể là 3):
-        1. Vòng lặp `for`
-        -  Cấu trúc: `for (giá trị khởi tạo; điều kiện; thay đổi giá trị khởi tạo)` 
-        -  Phù hợp cho việc vòng lặp có điều kiện
-        2. Vòng lặp `for..in`
-        - Cấu trúc: `for (variable in object) `
-        - Phù hợp để lặp qua các thuộc tính đối tượng `for..in`
-        3. Vòng lặp `forEach`
-        - Cấu trúc:` array.forEach(function(currentValue, index, arr), thisValue)`
-        - Phù hợp để lặp qua array (mảng)
+   1. Vòng lặp `for`
+   - Cấu trúc: `for (giá trị khởi tạo; điều kiện; thay đổi giá trị khởi tạo)` 
+   - Phù hợp cho việc vòng lặp có điều kiện
+   2. Vòng lặp `for..in`
+   - Cấu trúc: `for (variable in object) `
+   - Phù hợp để lặp qua các thuộc tính đối tượng `for..in`
+   3. Vòng lặp `forEach`
+   - Cấu trúc:` array.forEach(function(currentValue, index, arr), thisValue)`
+   - Phù hợp để lặp qua array (mảng)
 2. Kết quả của đoạn code và giải thích
  ```js
    function f (){
